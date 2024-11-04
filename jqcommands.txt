@@ -1,0 +1,8 @@
+find a math for userName inside the userIdentity structure
+cat event_history_rand.json | jq -cr 'select(.userIdentity.userName == "cloud-forensics")'
+show all user names
+cat event_history_rand.json | jq -cr '.userIdentity.userName'
+show all the unique user names
+cat event_history_rand.json | jq -cr '.userIdentity.userName' | sort -u  
+show all API calls
+cat event_history_rand.json | jq -cr 'select(.eventType == "AwsApiCall")
