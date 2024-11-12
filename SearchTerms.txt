@@ -1,0 +1,119 @@
+Credential Access
+    Retrieve EC2 Password Data
+        NO HITS
+    Steal EC2 Instance Credentials
+        NO HITS
+    Retrieve a High Number of Secrets Manager secrets (Batch)
+        NO HITS
+    Retrieve a High Number of Secrets Manager secrets
+        NO HITS
+    Retrieve And Decrypt SSM Parameters
+        NO HITS
+
+Defense Evasion
+    Delete CloudTrail Trail
+        deleteFunctions.txt    
+    Disable CloudTrail Logging Through Event Selectors
+        NO HITS
+    CloudTrail Logs Impairment Through S3 Lifecycle Rule
+        NO HITS
+    Stop CloudTrail Trail
+        NO HITS
+    Delete DNS query logs
+        NO HITS
+    Attempt to Leave the AWS Organization
+        NO HITS
+    Remove VPC Flow Logs
+        NO HITS
+
+Discovery
+    Execute Discovery Commands on an EC2 Instance
+        NO HITS
+    Download EC2 Instance User Data
+        NO HITS
+    Enumerate SES
+        NO HITS
+
+Execution
+    Launch Unusual EC2 instances
+        NO HITS
+    Execute Commands on EC2 Instance via User Data
+        Three rapid Stop Events?
+      "eventTime": "2024-09-16T22:13:59Z",
+      "eventTime": "2024-09-16T22:13:45Z",
+      "eventTime": "2024-09-16T22:13:03Z",
+    Usage of ssm:SendCommand on multiple instances
+        Sent shell commands
+      "eventTime": "2024-08-21T18:28:27Z",
+      "eventTime": "2024-08-21T17:54:42Z",
+    Usage of ssm:StartSession on multiple instances
+        Sends a bash -l as the command after changing to the py_tester directory
+      "eventTime": "2024-08-19T08:29:52Z",
+      "eventTime": "2024-08-21T18:23:18Z",
+
+Exfiltration
+    Open Ingress Port 22 on a Security Group
+        securityGroupIngress.txt
+    Exfiltrate an AMI by Sharing It
+        NO HITS
+    Exfiltrate EBS Snapshot by Sharing It
+        createVolumePermissionEC2.txt
+    Exfiltrate RDS Snapshot by Sharing
+        NO HITS
+    Backdoor an S3 Bucket via its Bucket Policy
+        Multiple nonsense happening with S3 putBucketPolicy stuff
+          redteam stratus allow event: 
+          "eventTime": "2024-08-21T18:31:32Z",
+Impact
+    Invoke Bedrock Model
+        NO HITS
+    S3 Ransomware through batch file deletion
+        NO HITS
+    S3 Ransomware through client-side encryption
+        NO HITS?
+    S3 Ransomware through individual file deletion
+        NO HITS?
+Initial Access
+    Console Login without MFA
+        username johnsmith suspicious. Lots of attack events
+        Creates backup, recovery point, creates users/subnets, drops instances because you can't change them while running
+Lateral Movement
+    Usage of EC2 Instance Connect on multiple instances
+        NO HITS
+Persistence
+    Backdoor an IAM Role
+        NO HITS
+    Create an Access Key on an IAM User
+        NO HITS
+    Create an administrative IAM User
+        NO HITS
+    Create a backdoored IAM Role
+        NO HITS
+    Create a Login Profile on an IAM User
+        NO HITS
+    Backdoor Lambda Function Through Resource-Based Policy
+        "eventTime": "2024-08-21T17:53:20Z",
+        "eventTime": "2024-08-19T08:28:18Z",
+        "eventTime": "2024-08-19T05:01:33Z",
+    Add a Malicious Lambda Extension
+        Maybe?    
+        "eventTime": "2024-09-11T06:03:00Z",
+    Overwrite Lambda Function Code
+        NO HITS
+    Create an IAM Roles Anywhere trust anchor
+        NO HITS
+Privilege Escalation
+    Execute Commands on EC2 Instance via User Data
+        NO HITS 
+    Create an Access Key on an IAM User
+        NO HITS
+    Create an administrative IAM User
+        NO HITS
+    Create a Login Profile on an IAM User
+        NO HITS
+    Add a Malicious Lambda Extension
+        NO HITS
+    Create an IAM Roles Anywhere trust anchor
+        NO HITS
+    Change IAM user password
+       NO HITS 

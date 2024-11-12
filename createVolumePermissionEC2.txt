@@ -1,0 +1,59 @@
+  "eventTime": "2024-08-21T18:38:08Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "ModifySnapshotAttribute",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "38.29.155.253",
+  "userAgent": "malware-protection.guardduty.amazonaws.com",
+  "requestParameters": {
+    "snapshotId": "snap-04fe76a53796513b8",
+    "createVolumePermission": {
+      "add": {
+        "items": [
+          {
+            "userId": "447226417196"
+          }
+--
+  "eventTime": "2024-08-19T08:44:05Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "ModifySnapshotAttribute",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "38.29.155.253",
+  "userAgent": "malware-protection.guardduty.amazonaws.com",
+  "requestParameters": {
+    "snapshotId": "snap-06cddbc528a830c76",
+    "createVolumePermission": {
+      "add": {
+        "items": [
+          {
+            "userId": "447226417196"
+          }
+--
+  "eventTime": "2024-08-19T05:07:59Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "ModifySnapshotAttribute",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "38.157.195.150",
+  "userAgent": "stratus-red-team_7373e8fb-026d-4bcd-b282-f9018eeb151c",
+  "requestParameters": {
+    "snapshotId": "snap-0ddcd53ca8f79b37c",
+    "createVolumePermission": {
+      "remove": {
+        "items": [
+          {
+            "userId": "012345678912"
+          }
+--
+  "eventTime": "2024-08-19T04:40:46Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "ModifySnapshotAttribute",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "38.157.195.150",
+  "userAgent": "stratus-red-team_c55c363a-0d86-4bd3-88db-b1c5f8518ec6",
+  "requestParameters": {
+    "snapshotId": "snap-0ddcd53ca8f79b37c",
+    "createVolumePermission": {
+      "add": {
+        "items": [
+          {
+            "userId": "012345678912"
+          }

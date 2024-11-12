@@ -1,0 +1,637 @@
+  "eventTime": "2024-08-21T19:00:35Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "AuthorizeSecurityGroupIngress",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "67.181.124.47",
+  "userAgent": "aws-sdk-js/3.606.0 ua/2.0 os/linux#5.10.219-229.866.amzn2.x86_64 lang/js md/nodejs#18.20.4 api/ec2#3.606.0 exec-env/AWS_Lambda_nodejs18.x",
+  "requestParameters": {
+    "groupId": "sg-0602f5161b7ad4694",
+    "ipPermissions": {
+      "items": [
+        {
+          "ipProtocol": "-1",
+          "groups": {
+            "items": [
+              {
+                "userId": "661078026852",
+                "groupId": "sg-0602f5161b7ad4694"
+              }
+            ]
+          },
+          "ipRanges": {},
+--
+  "eventTime": "2024-08-21T17:50:32Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "AuthorizeSecurityGroupIngress",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "209.230.231.34",
+  "userAgent": "eks.amazonaws.com",
+  "requestParameters": {
+    "groupId": "sg-069cdf1722ab3c205",
+    "ipPermissions": {
+      "items": [
+        {
+          "ipProtocol": "-1",
+          "groups": {
+            "items": [
+              {
+                "groupId": "sg-069cdf1722ab3c205"
+              }
+            ]
+          },
+          "ipRanges": {},
+          "ipv6Ranges": {},
+--
+  "eventTime": "2024-08-21T17:47:11Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "AuthorizeSecurityGroupIngress",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "groupId": "sg-0f2720ffcfae06ecd",
+    "ipPermissions": {
+      "items": [
+        {
+          "ipProtocol": "udp",
+          "fromPort": 53,
+          "toPort": 53,
+          "groups": {},
+          "ipRanges": {
+            "items": [
+              {
+                "cidrIp": "172.16.0.0/24",
+                "description": "allow udp port 53 connection from within vpc"
+              }
+--
+  "eventTime": "2024-08-21T17:47:09Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "AuthorizeSecurityGroupIngress",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "groupId": "sg-08cdb75763ee0b8e6",
+    "ipPermissions": {
+      "items": [
+        {
+          "ipProtocol": "tcp",
+          "fromPort": 0,
+          "toPort": 65535,
+          "groups": {},
+          "ipRanges": {
+            "items": [
+              {
+                "cidrIp": "172.16.0.0/24",
+                "description": "allow tcp traffic from within vpc"
+              }
+--
+  "eventTime": "2024-08-21T17:47:09Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "AuthorizeSecurityGroupIngress",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "groupId": "sg-07a2ec2c22b3e8b3d",
+    "ipPermissions": {
+      "items": [
+        {
+          "ipProtocol": "tcp",
+          "fromPort": 0,
+          "toPort": 65535,
+          "groups": {},
+          "ipRanges": {
+            "items": [
+              {
+                "cidrIp": "172.16.0.0/24",
+                "description": "allow tcp traffic from within vpc"
+              }
+--
+  "eventTime": "2024-08-21T17:47:09Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "AuthorizeSecurityGroupIngress",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "groupId": "sg-0f2720ffcfae06ecd",
+    "ipPermissions": {
+      "items": [
+        {
+          "ipProtocol": "tcp",
+          "fromPort": 8009,
+          "toPort": 8009,
+          "groups": {},
+          "ipRanges": {
+            "items": [
+              {
+                "cidrIp": "172.16.0.0/24",
+                "description": "allow tcp connection from within vpc"
+              }
+--
+  "eventTime": "2024-08-21T17:47:09Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "AuthorizeSecurityGroupIngress",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "groupId": "sg-0f2720ffcfae06ecd",
+    "ipPermissions": {
+      "items": [
+        {
+          "ipProtocol": "tcp",
+          "fromPort": 22,
+          "toPort": 22,
+          "groups": {},
+          "ipRanges": {
+            "items": [
+              {
+                "cidrIp": "172.16.0.0/24",
+                "description": "allow ssh connection from within vpc"
+              }
+--
+  "eventTime": "2024-08-21T17:47:09Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "AuthorizeSecurityGroupIngress",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "groupId": "sg-016fa8b8c56ae2e1a",
+    "ipPermissions": {
+      "items": [
+        {
+          "ipProtocol": "tcp",
+          "fromPort": 3389,
+          "toPort": 3389,
+          "groups": {},
+          "ipRanges": {
+            "items": [
+              {
+                "cidrIp": "172.16.0.0/24",
+                "description": "allow rdp connection from within vpc"
+              }
+--
+  "eventTime": "2024-08-21T17:47:09Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "AuthorizeSecurityGroupIngress",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "groupId": "sg-0f2720ffcfae06ecd",
+    "ipPermissions": {
+      "items": [
+        {
+          "ipProtocol": "udp",
+          "fromPort": 80,
+          "toPort": 80,
+          "groups": {},
+          "ipRanges": {
+            "items": [
+              {
+                "cidrIp": "172.16.0.0/24",
+                "description": "allow udp port 80 connection from within vpc"
+              }
+--
+  "eventTime": "2024-08-21T17:47:09Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "AuthorizeSecurityGroupIngress",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "groupId": "sg-00e1513110752f435",
+    "ipPermissions": {
+      "items": [
+        {
+          "ipProtocol": "tcp",
+          "fromPort": 443,
+          "toPort": 443,
+          "groups": {},
+          "ipRanges": {
+            "items": [
+              {
+                "cidrIp": "172.16.0.0/24",
+                "description": "from 172.16.0.0/24:443"
+              }
+--
+  "eventTime": "2024-08-20T19:21:15Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "AuthorizeSecurityGroupIngress",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "146.117.75.205",
+  "userAgent": "aws-sdk-js/3.606.0 ua/2.0 os/linux#5.10.219-229.866.amzn2.x86_64 lang/js md/nodejs#18.20.4 api/ec2#3.606.0 exec-env/AWS_Lambda_nodejs18.x",
+  "requestParameters": {
+    "groupId": "sg-0ca69c2e4317da116",
+    "ipPermissions": {
+      "items": [
+        {
+          "ipProtocol": "-1",
+          "groups": {
+            "items": [
+              {
+                "userId": "661078026852",
+                "groupId": "sg-0ca69c2e4317da116"
+              }
+            ]
+          },
+          "ipRanges": {},
+--
+  "eventTime": "2024-08-19T08:16:47Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "AuthorizeSecurityGroupIngress",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "209.230.231.34",
+  "userAgent": "eks.amazonaws.com",
+  "requestParameters": {
+    "groupId": "sg-05c63ee92f2e355bf",
+    "ipPermissions": {
+      "items": [
+        {
+          "ipProtocol": "-1",
+          "groups": {
+            "items": [
+              {
+                "groupId": "sg-05c63ee92f2e355bf"
+              }
+            ]
+          },
+          "ipRanges": {},
+          "ipv6Ranges": {},
+--
+  "eventTime": "2024-08-19T08:14:04Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "AuthorizeSecurityGroupIngress",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "groupId": "sg-0423f34c46599af90",
+    "ipPermissions": {
+      "items": [
+        {
+          "ipProtocol": "udp",
+          "fromPort": 53,
+          "toPort": 53,
+          "groups": {},
+          "ipRanges": {
+            "items": [
+              {
+                "cidrIp": "172.16.0.0/24",
+                "description": "allow udp port 53 connection from within vpc"
+              }
+--
+  "eventTime": "2024-08-19T08:14:02Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "AuthorizeSecurityGroupIngress",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "groupId": "sg-06c7312c52faac746",
+    "ipPermissions": {
+      "items": [
+        {
+          "ipProtocol": "tcp",
+          "fromPort": 3389,
+          "toPort": 3389,
+          "groups": {},
+          "ipRanges": {
+            "items": [
+              {
+                "cidrIp": "172.16.0.0/24",
+                "description": "allow rdp connection from within vpc"
+              }
+--
+  "eventTime": "2024-08-19T08:14:02Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "AuthorizeSecurityGroupIngress",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "groupId": "sg-0916afe2138d2251c",
+    "ipPermissions": {
+      "items": [
+        {
+          "ipProtocol": "tcp",
+          "fromPort": 443,
+          "toPort": 443,
+          "groups": {},
+          "ipRanges": {
+            "items": [
+              {
+                "cidrIp": "172.16.0.0/24",
+                "description": "from 172.16.0.0/24:443"
+              }
+--
+  "eventTime": "2024-08-19T08:14:02Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "AuthorizeSecurityGroupIngress",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "groupId": "sg-01180ae4aa5e8c2e2",
+    "ipPermissions": {
+      "items": [
+        {
+          "ipProtocol": "tcp",
+          "fromPort": 0,
+          "toPort": 65535,
+          "groups": {},
+          "ipRanges": {
+            "items": [
+              {
+                "cidrIp": "172.16.0.0/24",
+                "description": "allow tcp traffic from within vpc"
+              }
+--
+  "eventTime": "2024-08-19T08:14:02Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "AuthorizeSecurityGroupIngress",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "groupId": "sg-0b90013f90b15e9a8",
+    "ipPermissions": {
+      "items": [
+        {
+          "ipProtocol": "tcp",
+          "fromPort": 0,
+          "toPort": 65535,
+          "groups": {},
+          "ipRanges": {
+            "items": [
+              {
+                "cidrIp": "172.16.0.0/24",
+                "description": "allow tcp traffic from within vpc"
+              }
+--
+  "eventTime": "2024-08-19T08:14:02Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "AuthorizeSecurityGroupIngress",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "groupId": "sg-0423f34c46599af90",
+    "ipPermissions": {
+      "items": [
+        {
+          "ipProtocol": "udp",
+          "fromPort": 80,
+          "toPort": 80,
+          "groups": {},
+          "ipRanges": {
+            "items": [
+              {
+                "cidrIp": "172.16.0.0/24",
+                "description": "allow udp port 80 connection from within vpc"
+              }
+--
+  "eventTime": "2024-08-19T08:14:02Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "AuthorizeSecurityGroupIngress",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "groupId": "sg-0423f34c46599af90",
+    "ipPermissions": {
+      "items": [
+        {
+          "ipProtocol": "tcp",
+          "fromPort": 22,
+          "toPort": 22,
+          "groups": {},
+          "ipRanges": {
+            "items": [
+              {
+                "cidrIp": "172.16.0.0/24",
+                "description": "allow ssh connection from within vpc"
+              }
+--
+  "eventTime": "2024-08-19T08:14:02Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "AuthorizeSecurityGroupIngress",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "groupId": "sg-0423f34c46599af90",
+    "ipPermissions": {
+      "items": [
+        {
+          "ipProtocol": "tcp",
+          "fromPort": 8009,
+          "toPort": 8009,
+          "groups": {},
+          "ipRanges": {
+            "items": [
+              {
+                "cidrIp": "172.16.0.0/24",
+                "description": "allow tcp connection from within vpc"
+              }
+--
+  "eventTime": "2024-07-23T21:51:52Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "AuthorizeSecurityGroupIngress",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "38.157.195.150",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:127.0) Gecko/20100101 Firefox/127.0",
+  "requestParameters": {
+    "groupId": "sg-0ad1fa1f59cda8409",
+    "ipPermissions": {
+      "items": [
+        {
+          "ipProtocol": "tcp",
+          "fromPort": 22,
+          "toPort": 22,
+          "groups": {},
+          "ipRanges": {
+            "items": [
+              {
+                "cidrIp": "0.0.0.0/0"
+              }
+            ]
+--
+  "eventTime": "2024-06-25T18:20:48Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "AuthorizeSecurityGroupIngress",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "38.157.195.150",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:127.0) Gecko/20100101 Firefox/127.0",
+  "requestParameters": {
+    "groupId": "sg-017f6f83b4fefd5a0",
+    "ipPermissions": {
+      "items": [
+        {
+          "ipProtocol": "tcp",
+          "fromPort": 22,
+          "toPort": 22,
+          "groups": {},
+          "ipRanges": {
+            "items": [
+              {
+                "cidrIp": "0.0.0.0/0"
+              }
+            ]
+--
+  "eventTime": "2024-06-20T02:08:50Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "AuthorizeSecurityGroupIngress",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "38.157.195.150",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:127.0) Gecko/20100101 Firefox/127.0",
+  "requestParameters": {
+    "groupId": "sg-0ae37e6097500f253",
+    "ipPermissions": {
+      "items": [
+        {
+          "ipProtocol": "tcp",
+          "fromPort": 22,
+          "toPort": 22,
+          "groups": {},
+          "ipRanges": {
+            "items": [
+              {
+                "cidrIp": "0.0.0.0/0"
+              }
+            ]
+--
+  "eventTime": "2024-06-19T23:24:19Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "AuthorizeSecurityGroupIngress",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "38.157.195.150",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:127.0) Gecko/20100101 Firefox/127.0",
+  "requestParameters": {
+    "groupId": "sg-06f341d3226b17bfe",
+    "ipPermissions": {
+      "items": [
+        {
+          "ipProtocol": "tcp",
+          "fromPort": 22,
+          "toPort": 22,
+          "groups": {},
+          "ipRanges": {
+            "items": [
+              {
+                "cidrIp": "0.0.0.0/0"
+              }
+            ]
+--
+  "eventTime": "2024-06-19T23:07:20Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "AuthorizeSecurityGroupIngress",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "38.157.195.150",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:127.0) Gecko/20100101 Firefox/127.0",
+  "requestParameters": {
+    "groupId": "sg-0ec6678af705fc63a",
+    "ipPermissions": {
+      "items": [
+        {
+          "ipProtocol": "tcp",
+          "fromPort": 22,
+          "toPort": 22,
+          "groups": {},
+          "ipRanges": {
+            "items": [
+              {
+                "cidrIp": "0.0.0.0/0"
+              }
+            ]
+--
+  "eventTime": "2024-06-19T23:06:21Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "AuthorizeSecurityGroupIngress",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "38.157.195.150",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:127.0) Gecko/20100101 Firefox/127.0",
+  "requestParameters": {
+    "groupId": "sg-0584aaa049f0a3403",
+    "ipPermissions": {
+      "items": [
+        {
+          "ipProtocol": "tcp",
+          "fromPort": 1433,
+          "toPort": 1433,
+          "groups": {},
+          "ipRanges": {
+            "items": [
+              {
+                "cidrIp": "0.0.0.0/0"
+              }
+            ]
+--
+  "eventTime": "2024-06-19T22:59:55Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "AuthorizeSecurityGroupIngress",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "38.157.195.150",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0",
+  "requestParameters": {
+    "groupId": "sg-0d83e6fe190440f19",
+    "ipPermissions": {
+      "items": [
+        {
+          "ipProtocol": "tcp",
+          "fromPort": 22,
+          "toPort": 22,
+          "groups": {},
+          "ipRanges": {
+            "items": [
+              {
+                "cidrIp": "0.0.0.0/0"
+              }
+            ]
+--
+  "eventTime": "2024-06-19T22:54:45Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "AuthorizeSecurityGroupIngress",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "38.157.195.150",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0",
+  "requestParameters": {
+    "groupId": "sg-0cb89de8d087bb20f",
+    "ipPermissions": {
+      "items": [
+        {
+          "ipProtocol": "tcp",
+          "fromPort": 22,
+          "toPort": 22,
+          "groups": {},
+          "ipRanges": {
+            "items": [
+              {
+                "cidrIp": "0.0.0.0/0"
+              }
+            ]
+--
+  "eventTime": "2024-06-19T22:43:39Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "AuthorizeSecurityGroupIngress",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "38.157.195.150",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:126.0) Gecko/20100101 Firefox/126.0",
+  "requestParameters": {
+    "groupId": "sg-018c34a416b01e294",
+    "ipPermissions": {
+      "items": [
+        {
+          "ipProtocol": "tcp",
+          "fromPort": 22,
+          "toPort": 22,
+          "groups": {},
+          "ipRanges": {
+            "items": [
+              {
+                "cidrIp": "0.0.0.0/0"
+              }
+            ]

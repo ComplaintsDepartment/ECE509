@@ -1,0 +1,637 @@
+  "eventName": "DeleteFunction20150331",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "functionName": "GuardDutyTesterStack-awscdk-OnEventHandler42BEBAE0-mhHSo002KPIt"
+  },
+  "responseElements": null,
+  "requestID": "ee37ec74-80c0-4d34-a0b2-e7f6c0b3a2cc",
+  "eventID": "09f48664-d9bd-4587-b4e8-34f77002e79d",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSJB4NGTIR7:AWSCloudFormation",
+--
+  "eventName": "DeleteFunction20150331",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "functionName": "GuardDutyTesterStack-awsc-IsCompleteHandler7073F4D-bYvCbx93NR6S"
+  },
+  "responseElements": null,
+  "requestID": "15fbb756-3ea8-42b4-857b-6efd3b866a50",
+  "eventID": "93a23273-2c5f-435c-bd60-b69437346fd6",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSJB4NGTIR7:AWSCloudFormation",
+--
+  "eventName": "DeleteFunction20150331",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "functionName": "GuardDutyTesterStack-awsc-ProviderframeworkisCompl-CQE4BF9eljSD"
+  },
+  "responseElements": null,
+  "requestID": "dd19f88c-e3ee-425c-94ec-1d2cc69488d8",
+  "eventID": "39bdf67c-09ff-4856-a3f5-f53251590517",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSJB4NGTIR7:AWSCloudFormation",
+--
+  "eventName": "DeleteFunction20150331",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "functionName": "GuardDutyTesterStack-awsc-ProviderframeworkonTimeo-pTZvkLX8tHmS"
+  },
+  "responseElements": null,
+  "requestID": "285da6cb-496e-492e-9d44-01cb7050410d",
+  "eventID": "f89ba4d9-b53c-4f73-aa2d-38c72eaa7ccb",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSJB4NGTIR7:AWSCloudFormation",
+--
+  "eventName": "DeleteFunction20150331",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "functionName": "GuardDutyTesterStack-awsc-ProviderframeworkonEvent-92GrhF23PYV4"
+  },
+  "responseElements": null,
+  "requestID": "d65ff36a-1660-424c-98c7-1bc6142168e6",
+  "eventID": "d4ab77e5-600d-4ed0-bc23-09a09b87956d",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.10",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSJB4NGTIR7:AWSCloudFormation",
+--
+  "eventName": "DeleteFunction20150331",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "functionName": "GuardDutyTesterStack-CustomVpcRestrictDefaultSGCus-jCwJFvqq2L5o"
+  },
+  "responseElements": null,
+  "requestID": "b6e5d9fd-4149-45c5-a59c-14f3b0a48a20",
+  "eventID": "db662ebc-f5aa-484d-be72-38f85e466046",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.10",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSLBCMYYUDN:GuardDutyTesterStack-CustomVpcRestrictDefaultSGCus-jCwJFvqq2L5o",
+--
+  "eventName": "DeleteFunction20150331",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "functionName": "GuardDutyTesterStack-testerCfnLambdaonEventFunctio-3Tf3cCzO7CKz"
+  },
+  "responseElements": null,
+  "requestID": "d7c26e06-a02a-4b2b-bc9a-caddee48a80b",
+  "eventID": "1388a650-34ef-4e83-923e-961f1f405516",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSJNXBEPHSX:GuardDutyTesterStack-testerCfnLambdaonEventFunctio-3Tf3cCzO7CKz",
+--
+  "eventName": "DeleteFunction20150331",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "functionName": "GuardDutyTesterStack-StepFunctionLambdaA38B59B8-0oql4PKPog2S"
+  },
+  "responseElements": null,
+  "requestID": "ca7152e2-30d1-49fe-9f93-f49cadad3345",
+  "eventID": "b663779f-36fb-4ec2-8017-a6957e77a8e4",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.09",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSJB4NGTIR7:AWSCloudFormation",
+--
+  "eventName": "DeleteFunction20150331",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "functionName": "GuardDutyTesterStack-testerLambda87E58EB4-92Ak6RAP5MAD"
+  },
+  "responseElements": null,
+  "requestID": "ca88b5e9-f89e-4b36-a097-14b7c10adbdc",
+  "eventID": "93f1dd6c-009a-4ecb-a8ef-8599dcd7b8cc",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSJB4NGTIR7:AWSCloudFormation",
+--
+  "eventName": "DeleteFunction20150331",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "functionName": "GuardDutyTesterStack-awscdkawseksK-Handler886CB40B-Q5sWQm2oQ4dg"
+  },
+  "responseElements": null,
+  "requestID": "7d01f56e-995b-40b7-9cfb-7ef94dc511eb",
+  "eventID": "d3455290-face-4105-a484-4faccfc3f734",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSJB4NGTIR7:AWSCloudFormation",
+--
+  "eventName": "DeleteFunction20150331",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "functionName": "GuardDutyTesterStack-awsc-ProviderframeworkonEvent-3WoMNGvZziic"
+  },
+  "responseElements": null,
+  "requestID": "b8a07b42-cd87-4d94-83af-561ca714a34c",
+  "eventID": "f46f77eb-efae-479b-abcb-ebeeb1aa1eb9",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSMLYNJNCKR:ecs-autoscaling",
+--
+  "eventName": "DeleteFunction20150331",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "functionName": "GuardDutyTesterStack-CustomS3AutoDeleteObjectsCust-d2W1CWhCRo99"
+  },
+  "responseElements": null,
+  "requestID": "9836352c-70ec-4c7a-ad96-1acfa38cea66",
+  "eventID": "3e9f1b8a-4dac-42a9-81de-9d4a816e41d0",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.09",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSMMXRGPVJK:GuardDutyTesterStack-CustomCDKBucketDeployment8693-wXssArkotNHx",
+--
+  "eventName": "DeleteFunction20150331",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "functionName": "GuardDutyTesterStack-CustomCDKBucketDeployment8693-wXssArkotNHx"
+  },
+  "responseElements": null,
+  "requestID": "692e23fc-f2ea-4684-a37f-3892b62b8a0f",
+  "eventID": "6a008347-75c4-43d5-a8b0-9fa0f904cfd3",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.09",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSJB4NGTIR7:AWSCloudFormation",
+--
+  "eventName": "DeleteFunction20150331",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "functionName": "GuardDutyTesterStack-driverClusterASGDrainECSHookF-QxBYnxM0irm8"
+  },
+  "responseElements": null,
+  "requestID": "77a173bd-405a-4946-8980-8b4c7f84cf3e",
+  "eventID": "8156f0bf-f2b0-4183-ac6b-b848eac118ce",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSH3QZOHWWQ:AutoScaling",
+--
+  "eventName": "DeleteFunction20150331",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "functionName": "GuardDutyTesterStack-awsc-IsCompleteHandler7073F4D-TUX0nVUEhcgd"
+  },
+  "responseElements": null,
+  "requestID": "a95cd90c-35f2-49ea-adc5-30181e0ba372",
+  "eventID": "2b17069b-1d3b-4f67-982b-3c2cde12185d",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSJB4NGTIR7:AWSCloudFormation",
+--
+  "eventName": "DeleteFunction20150331",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "functionName": "GuardDutyTesterStack-awscdk-OnEventHandler42BEBAE0-XgxC5lOeglO1"
+  },
+  "responseElements": null,
+  "requestID": "b7b03830-d3e8-47bd-88a4-27c7ad2b17c5",
+  "eventID": "454f9d01-da88-4f54-8421-befbc6489868",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSJB4NGTIR7:AWSCloudFormation",
+--
+  "eventName": "DeleteFunction20150331",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "functionName": "GuardDutyTesterStack-awsc-ProviderframeworkisCompl-cM34HLMgCt3p"
+  },
+  "responseElements": null,
+  "requestID": "7ca35849-6275-46e6-b1dc-ab5c3eaf9742",
+  "eventID": "1b7c0526-dd0f-44ac-9955-b4ceeff370f8",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSJB4NGTIR7:AWSCloudFormation",
+--
+  "eventName": "DeleteFunction20150331",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "functionName": "GuardDutyTesterStack-awsc-ProviderframeworkonTimeo-ECbQwDr8v6Bv"
+  },
+  "responseElements": null,
+  "requestID": "6e9a7bd8-5fa5-4d03-aecb-341607a414ee",
+  "eventID": "45feb452-e5f3-48d6-9afb-141f86cfb387",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSJB4NGTIR7:AWSCloudFormation",
+--
+  "eventName": "DeleteFunction20150331",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "functionName": "GuardDutyTesterStack-awsc-ProviderframeworkonEvent-AKEjKCgF47TP"
+  },
+  "responseElements": null,
+  "requestID": "7bd75df2-0f4d-4a4d-bd8a-d21d7777f498",
+  "eventID": "55bc3adb-c3ce-4e62-97bd-0ae1d3a7fead",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.09",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSJB4NGTIR7:AWSCloudFormation",
+--
+  "eventName": "DeleteFunction20150331",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "functionName": "GuardDutyTesterStack-CustomVpcRestrictDefaultSGCus-Kdh4QYj8VRqj"
+  },
+  "responseElements": null,
+  "requestID": "558c1ab8-08aa-4855-8b13-2c5ba2f5565c",
+  "eventID": "b3f28208-914d-48ea-822f-dec0ec05ae07",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.09",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSJB4NGTIR7:AWSCloudFormation",
+--
+  "eventName": "DeleteFunction20150331",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "functionName": "GuardDutyTesterStack-testerCfnLambdaonEventFunctio-jM3zQluKPR61"
+  },
+  "responseElements": null,
+  "requestID": "4b9cfb3f-22a5-416c-a1a6-4fcb9162fabd",
+  "eventID": "0e413432-02eb-4aa5-a6a5-86a40b886347",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSJB4NGTIR7:AWSCloudFormation",
+--
+  "eventName": "DeleteFunction20150331",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "functionName": "GuardDutyTesterStack-StepFunctionLambdaA38B59B8-b6vSeVvN3zEp"
+  },
+  "responseElements": null,
+  "requestID": "c6d3d3c5-edaa-4ff8-bbdd-2c1fb5490dd7",
+  "eventID": "824bc8e9-446e-4fde-b8ea-8e4d1e5cfb44",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.09",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSEJYBU7I6G:GuardDutyTesterStack-testerCfnLambdaonEventFunctio-jM3zQluKPR61",
+--
+  "eventName": "DeleteFunction20150331",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "functionName": "GuardDutyTesterStack-testerLambda87E58EB4-Pc1K3blFgRZl"
+  },
+  "responseElements": null,
+  "requestID": "4b0e7bb0-b16f-4f28-8393-e15d473c7a39",
+  "eventID": "d1c67319-9f4f-4690-97d3-9464b426f05a",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSJB4NGTIR7:AWSCloudFormation",
+--
+  "eventName": "DeleteFunction20150331",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "functionName": "GuardDutyTesterStack-CustomS3AutoDeleteObjectsCust-na8LDwC3kWgo"
+  },
+  "responseElements": null,
+  "requestID": "245f1291-13d8-40c6-8011-f714d6ce600f",
+  "eventID": "fed60b77-8161-4eb8-913f-99400edfe267",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSJB4NGTIR7:AWSCloudFormation",
+--
+  "eventName": "DeleteFunction20150331",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "functionName": "GuardDutyTesterStack-awscdkawseksK-Handler886CB40B-Ew7bnWzy0KSh"
+  },
+  "responseElements": null,
+  "requestID": "cdd65dae-ba48-4722-b4f6-dc3aa3949b9d",
+  "eventID": "49675813-e8fb-477e-aad7-b7240ded28d3",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSJB4NGTIR7:AWSCloudFormation",
+--
+  "eventName": "DeleteFunction20150331",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "functionName": "GuardDutyTesterStack-awsc-ProviderframeworkonEvent-uXengwEtgWbV"
+  },
+  "responseElements": null,
+  "requestID": "9968e474-33fe-4b7d-8e85-f448958280eb",
+  "eventID": "35ca24cb-4d0e-4584-8b37-51ca837a3fa9",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.09",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSH3QZOHWWQ:AutoScaling",
+--
+  "eventName": "DeleteFunction20150331",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "functionName": "GuardDutyTesterStack-CustomCDKBucketDeployment8693-bvYL7RPXcmcs"
+  },
+  "responseElements": null,
+  "requestID": "79da8f44-afa1-4689-9779-a4ec0af70676",
+  "eventID": "350592bf-e4e0-4981-b661-9ee4a59271b9",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.08",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSH3QZOHWWQ:AutoScaling",
+--
+  "eventName": "DeleteFunction20150331",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "178.63.209.238",
+  "userAgent": "cloudformation.amazonaws.com",
+  "requestParameters": {
+    "functionName": "GuardDutyTesterStack-driverClusterASGDrainECSHookF-oorWDhWX8xWH"
+  },
+  "responseElements": null,
+  "requestID": "a1d7f593-f5ac-4576-82ac-904500009316",
+  "eventID": "f521a005-ba73-45ba-9ef3-638addb29721",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.09",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSD5DLEBW6H:GuardDutyTesterStack-CustomS3AutoDeleteObjectsCust-na8LDwC3kWgo",
+--
+  "eventName": "DeleteFunction20150331",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "38.157.195.150",
+  "userAgent": "APN/1.0 HashiCorp/1.0 Terraform/1.1.2 (+https://www.terraform.io) terraform-provider-aws/3.76.1 (+https://registry.terraform.io/providers/hashicorp/aws) aws-sdk-go/1.44.157 (go1.19.3; linux; amd64) HashiCorp-terraform-exec/0.17.3",
+  "requestParameters": {
+    "functionName": "stratus-red-team-backdoor-f-func"
+  },
+  "responseElements": null,
+  "requestID": "e197d87f-be2a-493c-9666-910ec2553429",
+  "eventID": "0c8cd338-62c6-4ee6-9480-45d5ff224cfc",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management",
+  "tlsDetails": {
+    "tlsVersion": "TLSv1.3",
+    "cipherSuite": "TLS_AES_128_GCM_SHA256",
+    "clientProvidedHostHeader": "lambda.us-west-2.amazonaws.com"
+  }
+}
