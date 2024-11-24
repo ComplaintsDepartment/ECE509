@@ -1,0 +1,2022 @@
+{
+  "eventVersion": "1.10",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSDGTOSO7OX:AmazonEKS",
+    "arn": "arn:aws:sts::661122334567:assumed-role/AWSServiceRoleForAmazonEKS/AmazonEKS",
+    "accountId": "661122334567",
+    "sessionContext": {
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "AROAZT22SFJSDGTOSO7OX",
+        "arn": "arn:aws:iam::661122334567:role/aws-service-role/eks.amazonaws.com/AWSServiceRoleForAmazonEKS",
+        "accountId": "661122334567",
+        "userName": "AWSServiceRoleForAmazonEKS"
+      },
+      "attributes": {
+        "creationDate": "2024-08-21T19:05:33Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "eks.amazonaws.com"
+  },
+  "eventTime": "2024-08-21T19:05:46Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "DeleteSecurityGroup",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "209.230.231.34",
+  "userAgent": "eks.amazonaws.com",
+  "requestParameters": {
+    "groupId": "sg-069cdf1722ab3c205"
+  },
+  "responseElements": {
+    "requestId": "d8d534ae-fb59-4e13-a251-be2401b23285",
+    "_return": true,
+    "groupId": "sg-069cdf1722ab3c205"
+  },
+  "requestID": "d8d534ae-fb59-4e13-a251-be2401b23285",
+  "eventID": "5bc6b478-a257-410d-8987-a88ea9c029da",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.10",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSDGTOSO7OX:AmazonEKS",
+    "arn": "arn:aws:sts::661122334567:assumed-role/AWSServiceRoleForAmazonEKS/AmazonEKS",
+    "accountId": "661122334567",
+    "sessionContext": {
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "AROAZT22SFJSDGTOSO7OX",
+        "arn": "arn:aws:iam::661122334567:role/aws-service-role/eks.amazonaws.com/AWSServiceRoleForAmazonEKS",
+        "accountId": "661122334567",
+        "userName": "AWSServiceRoleForAmazonEKS"
+      },
+      "attributes": {
+        "creationDate": "2024-08-21T19:05:33Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "eks.amazonaws.com"
+  },
+  "eventTime": "2024-08-21T19:05:45Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "RevokeSecurityGroupIngress",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "209.230.231.34",
+  "userAgent": "eks.amazonaws.com",
+  "requestParameters": {
+    "groupId": "sg-069cdf1722ab3c205",
+    "ipPermissions": {
+      "items": [
+        {
+          "ipProtocol": "-1",
+          "groups": {
+            "items": [
+              {
+                "groupId": "sg-069cdf1722ab3c205"
+              }
+            ]
+          },
+          "ipRanges": {},
+          "ipv6Ranges": {},
+          "prefixListIds": {}
+        }
+      ]
+    }
+  },
+  "responseElements": {
+    "requestId": "e539ab05-b052-4ea9-9e8e-7db18608738e",
+    "_return": true,
+    "revokedSecurityGroupRuleSet": {
+      "items": [
+        {
+          "groupId": "sg-069cdf1722ab3c205",
+          "securityGroupRuleId": "sgr-02b25911c7b23b4c6",
+          "isEgress": false,
+          "ipProtocol": "-1",
+          "fromPort": -1,
+          "toPort": -1,
+          "referencedGroupId": "sg-069cdf1722ab3c205"
+        }
+      ]
+    }
+  },
+  "requestID": "e539ab05-b052-4ea9-9e8e-7db18608738e",
+  "eventID": "06b0c6bc-b5d8-4a5b-b525-6749ecfb6f12",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.10",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSDGTOSO7OX:AmazonEKS",
+    "arn": "arn:aws:sts::661122334567:assumed-role/AWSServiceRoleForAmazonEKS/AmazonEKS",
+    "accountId": "661122334567",
+    "sessionContext": {
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "AROAZT22SFJSDGTOSO7OX",
+        "arn": "arn:aws:iam::661122334567:role/aws-service-role/eks.amazonaws.com/AWSServiceRoleForAmazonEKS",
+        "accountId": "661122334567",
+        "userName": "AWSServiceRoleForAmazonEKS"
+      },
+      "attributes": {
+        "creationDate": "2024-08-21T19:05:33Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "eks.amazonaws.com"
+  },
+  "eventTime": "2024-08-21T19:05:42Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "DeleteNetworkInterface",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "209.230.231.34",
+  "userAgent": "eks.amazonaws.com",
+  "requestParameters": {
+    "networkInterfaceId": "eni-057c9b92e0aaddc1c"
+  },
+  "responseElements": {
+    "requestId": "2f63a1b8-f3e5-488a-8319-b466cea06144",
+    "_return": true
+  },
+  "requestID": "2f63a1b8-f3e5-488a-8319-b466cea06144",
+  "eventID": "6dc56d33-5632-4f16-b432-a1e180afa5f3",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.10",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSDGTOSO7OX:AmazonEKS",
+    "arn": "arn:aws:sts::661122334567:assumed-role/AWSServiceRoleForAmazonEKS/AmazonEKS",
+    "accountId": "661122334567",
+    "sessionContext": {
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "AROAZT22SFJSDGTOSO7OX",
+        "arn": "arn:aws:iam::661122334567:role/aws-service-role/eks.amazonaws.com/AWSServiceRoleForAmazonEKS",
+        "accountId": "661122334567",
+        "userName": "AWSServiceRoleForAmazonEKS"
+      },
+      "attributes": {
+        "creationDate": "2024-08-21T19:05:33Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "eks.amazonaws.com"
+  },
+  "eventTime": "2024-08-21T19:05:39Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "DetachNetworkInterface",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "209.230.231.34",
+  "userAgent": "eks.amazonaws.com",
+  "requestParameters": {
+    "attachmentId": "eni-attach-062989bb7e2145fb4"
+  },
+  "responseElements": {
+    "requestId": "1001f61f-382e-497d-bcc4-38da914c3f65",
+    "_return": true
+  },
+  "requestID": "1001f61f-382e-497d-bcc4-38da914c3f65",
+  "eventID": "ac980225-eb26-4947-a201-1e3029734cfb",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.10",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSDGTOSO7OX:AmazonEKS",
+    "arn": "arn:aws:sts::661122334567:assumed-role/AWSServiceRoleForAmazonEKS/AmazonEKS",
+    "accountId": "661122334567",
+    "sessionContext": {
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "AROAZT22SFJSDGTOSO7OX",
+        "arn": "arn:aws:iam::661122334567:role/aws-service-role/eks.amazonaws.com/AWSServiceRoleForAmazonEKS",
+        "accountId": "661122334567",
+        "userName": "AWSServiceRoleForAmazonEKS"
+      },
+      "attributes": {
+        "creationDate": "2024-08-21T19:05:33Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "eks.amazonaws.com"
+  },
+  "eventTime": "2024-08-21T19:05:38Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "DeleteNetworkInterface",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "209.230.231.34",
+  "userAgent": "eks.amazonaws.com",
+  "requestParameters": {
+    "networkInterfaceId": "eni-017a45f53bf6992f4"
+  },
+  "responseElements": {
+    "requestId": "afeb44d3-80c1-42e6-af8e-d4bf820055a7",
+    "_return": true
+  },
+  "requestID": "afeb44d3-80c1-42e6-af8e-d4bf820055a7",
+  "eventID": "a4dc52fb-32a0-4ec1-9ece-a2c00ba6c3f8",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.10",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSDGTOSO7OX:AmazonEKS",
+    "arn": "arn:aws:sts::661122334567:assumed-role/AWSServiceRoleForAmazonEKS/AmazonEKS",
+    "accountId": "661122334567",
+    "sessionContext": {
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "AROAZT22SFJSDGTOSO7OX",
+        "arn": "arn:aws:iam::661122334567:role/aws-service-role/eks.amazonaws.com/AWSServiceRoleForAmazonEKS",
+        "accountId": "661122334567",
+        "userName": "AWSServiceRoleForAmazonEKS"
+      },
+      "attributes": {
+        "creationDate": "2024-08-21T19:05:33Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "eks.amazonaws.com"
+  },
+  "eventTime": "2024-08-21T19:05:34Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "DetachNetworkInterface",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "209.230.231.34",
+  "userAgent": "eks.amazonaws.com",
+  "requestParameters": {
+    "attachmentId": "eni-attach-0ee35a835db167cc3"
+  },
+  "responseElements": {
+    "requestId": "48011cff-4876-4035-904f-4e331b39f7d6",
+    "_return": true
+  },
+  "requestID": "48011cff-4876-4035-904f-4e331b39f7d6",
+  "eventID": "9a9311f0-9cd9-4d46-ac24-16dd7413f1e4",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.10",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSOXHAQD3HZ:1724263143185786199",
+    "arn": "arn:aws:sts::661122334567:assumed-role/lox-eksClusterRoleA48F9AA2-suq9dZaiU5r8/1724263143185786199",
+    "accountId": "661122334567",
+    "sessionContext": {
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "AROAZT22SFJSOXHAQD3HZ",
+        "arn": "arn:aws:iam::661122334567:role/lox-eksClusterRoleA48F9AA2-suq9dZaiU5r8",
+        "accountId": "661122334567",
+        "userName": "lox-eksClusterRoleA48F9AA2-suq9dZaiU5r8"
+      },
+      "attributes": {
+        "creationDate": "2024-08-21T18:59:55Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "eks.amazonaws.com"
+  },
+  "eventTime": "2024-08-21T19:02:58Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "DeleteTags",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "209.230.231.34",
+  "userAgent": "eks.amazonaws.com",
+  "requestParameters": {
+    "resourcesSet": {
+      "items": [
+        {
+          "resourceId": "i-0b73119832f28589c"
+        }
+      ]
+    },
+    "tagSet": {
+      "items": [
+        {
+          "key": "aws:eks:cluster-name",
+          "value": "EksGuardDutyTester"
+        }
+      ]
+    }
+  },
+  "responseElements": {
+    "requestId": "d0d73e10-d7cc-40ab-971e-fa995c5dc9d8",
+    "_return": true
+  },
+  "requestID": "d0d73e10-d7cc-40ab-971e-fa995c5dc9d8",
+  "eventID": "2ae390dd-8a3a-4c86-8f9b-2b4fb1f872ab",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.10",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSOXHAQD3HZ:1724263143185786199",
+    "arn": "arn:aws:sts::661122334567:assumed-role/lox-eksClusterRoleA48F9AA2-suq9dZaiU5r8/1724263143185786199",
+    "accountId": "661122334567",
+    "sessionContext": {
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "AROAZT22SFJSOXHAQD3HZ",
+        "arn": "arn:aws:iam::661122334567:role/lox-eksClusterRoleA48F9AA2-suq9dZaiU5r8",
+        "accountId": "661122334567",
+        "userName": "lox-eksClusterRoleA48F9AA2-suq9dZaiU5r8"
+      },
+      "attributes": {
+        "creationDate": "2024-08-21T17:59:03Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "eks.amazonaws.com"
+  },
+  "eventTime": "2024-08-21T17:59:03Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "CreateTags",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "209.230.231.34",
+  "userAgent": "eks.amazonaws.com",
+  "requestParameters": {
+    "resourcesSet": {
+      "items": [
+        {
+          "resourceId": "i-0b73119832f28589c"
+        }
+      ]
+    },
+    "tagSet": {
+      "items": [
+        {
+          "key": "aws:eks:cluster-name",
+          "value": "EksGuardDutyTester"
+        }
+      ]
+    }
+  },
+  "responseElements": {
+    "requestId": "ed2f68c5-3071-4ab6-9dfb-261943e88321",
+    "_return": true
+  },
+  "requestID": "ed2f68c5-3071-4ab6-9dfb-261943e88321",
+  "eventID": "6d659843-acbc-4c4a-8f2d-31a00ec79fa5",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.10",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSOXHAQD3HZ:1724263143185786199",
+    "arn": "arn:aws:sts::661122334567:assumed-role/lox-eksClusterRoleA48F9AA2-suq9dZaiU5r8/1724263143185786199",
+    "accountId": "661122334567",
+    "sessionContext": {
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "AROAZT22SFJSOXHAQD3HZ",
+        "arn": "arn:aws:iam::661122334567:role/lox-eksClusterRoleA48F9AA2-suq9dZaiU5r8",
+        "accountId": "661122334567",
+        "userName": "lox-eksClusterRoleA48F9AA2-suq9dZaiU5r8"
+      },
+      "attributes": {
+        "creationDate": "2024-08-21T17:59:03Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "eks.amazonaws.com"
+  },
+  "eventTime": "2024-08-21T17:59:03Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "CreateTags",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "209.230.231.34",
+  "userAgent": "eks.amazonaws.com",
+  "requestParameters": {
+    "resourcesSet": {
+      "items": [
+        {
+          "resourceId": "i-0b73119832f28589c"
+        }
+      ]
+    },
+    "tagSet": {
+      "items": [
+        {
+          "key": "aws:eks:cluster-name",
+          "value": "EksGuardDutyTester"
+        }
+      ]
+    }
+  },
+  "responseElements": {
+    "requestId": "96c338b5-80e3-4d75-8ba1-8c6f8ac10c56",
+    "_return": true
+  },
+  "requestID": "96c338b5-80e3-4d75-8ba1-8c6f8ac10c56",
+  "eventID": "9ed4cef1-30cd-4324-85bd-b262df7b2145",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.10",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSOXHAQD3HZ:1724263143185786199",
+    "arn": "arn:aws:sts::661122334567:assumed-role/lox-eksClusterRoleA48F9AA2-suq9dZaiU5r8/1724263143185786199",
+    "accountId": "661122334567",
+    "sessionContext": {
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "AROAZT22SFJSOXHAQD3HZ",
+        "arn": "arn:aws:iam::661122334567:role/lox-eksClusterRoleA48F9AA2-suq9dZaiU5r8",
+        "accountId": "661122334567",
+        "userName": "lox-eksClusterRoleA48F9AA2-suq9dZaiU5r8"
+      },
+      "attributes": {
+        "creationDate": "2024-08-21T17:59:03Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "eks.amazonaws.com"
+  },
+  "eventTime": "2024-08-21T17:59:03Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "CreateTags",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "209.230.231.34",
+  "userAgent": "eks.amazonaws.com",
+  "requestParameters": {
+    "resourcesSet": {
+      "items": [
+        {
+          "resourceId": "i-0b73119832f28589c"
+        }
+      ]
+    },
+    "tagSet": {
+      "items": [
+        {
+          "key": "aws:eks:cluster-name",
+          "value": "EksGuardDutyTester"
+        }
+      ]
+    }
+  },
+  "responseElements": {
+    "requestId": "06ce238f-61a8-45e7-9740-d18aeebcb82e",
+    "_return": true
+  },
+  "requestID": "06ce238f-61a8-45e7-9740-d18aeebcb82e",
+  "eventID": "cc7e88c3-8e74-4a42-8301-f9de97e0608c",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.10",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSDGTOSO7OX:AmazonEKS",
+    "arn": "arn:aws:sts::661122334567:assumed-role/AWSServiceRoleForAmazonEKS/AmazonEKS",
+    "accountId": "661122334567",
+    "sessionContext": {
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "AROAZT22SFJSDGTOSO7OX",
+        "arn": "arn:aws:iam::661122334567:role/aws-service-role/eks.amazonaws.com/AWSServiceRoleForAmazonEKS",
+        "accountId": "661122334567",
+        "userName": "AWSServiceRoleForAmazonEKS"
+      },
+      "attributes": {
+        "creationDate": "2024-08-21T17:58:45Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "eks.amazonaws.com"
+  },
+  "eventTime": "2024-08-21T17:58:45Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "CreateNetworkInterfacePermission",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "209.230.231.34",
+  "userAgent": "eks.amazonaws.com",
+  "requestParameters": {
+    "CreateNetworkInterfacePermissionRequest": {
+      "AwsAccountId": "285017233795",
+      "Permission": "INSTANCE-ATTACH",
+      "NetworkInterfaceId": "eni-057c9b92e0aaddc1c"
+    }
+  },
+  "responseElements": {
+    "CreateNetworkInterfacePermissionResponse": {
+      "xmlns": "http://ec2.amazonaws.com/doc/2016-11-15/",
+      "requestId": "dfa2f8b7-2c72-4f30-bd8d-1195e232ec41",
+      "interfacePermission": {
+        "networkInterfaceId": "eni-057c9b92e0aaddc1c",
+        "permissionState": {
+          "state": "GRANTED"
+        },
+        "awsAccountId": "285017233795",
+        "networkInterfacePermissionId": "eni-perm-02c626fb9e819ac20",
+        "permission": "INSTANCE-ATTACH"
+      }
+    }
+  },
+  "requestID": "dfa2f8b7-2c72-4f30-bd8d-1195e232ec41",
+  "eventID": "0406e0c7-727b-441a-b9af-865191c99c8a",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.10",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSDGTOSO7OX:AmazonEKS",
+    "arn": "arn:aws:sts::661122334567:assumed-role/AWSServiceRoleForAmazonEKS/AmazonEKS",
+    "accountId": "661122334567",
+    "sessionContext": {
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "AROAZT22SFJSDGTOSO7OX",
+        "arn": "arn:aws:iam::661122334567:role/aws-service-role/eks.amazonaws.com/AWSServiceRoleForAmazonEKS",
+        "accountId": "661122334567",
+        "userName": "AWSServiceRoleForAmazonEKS"
+      },
+      "attributes": {
+        "creationDate": "2024-08-21T17:58:45Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "eks.amazonaws.com"
+  },
+  "eventTime": "2024-08-21T17:58:45Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "CreateNetworkInterface",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "209.230.231.34",
+  "userAgent": "eks.amazonaws.com",
+  "requestParameters": {
+    "subnetId": "subnet-09f597e561f8b3561",
+    "description": "Amazon EKS EksGuardDutyTester",
+    "groupSet": {
+      "items": [
+        {
+          "groupId": "sg-08cdb75763ee0b8e6"
+        },
+        {
+          "groupId": "sg-069cdf1722ab3c205"
+        }
+      ]
+    },
+    "privateIpAddressesSet": {},
+    "ipv6AddressCount": 0,
+    "clientToken": "155b0f2a-ea12-44a3-a46a-7c06094f0cf3"
+  },
+  "responseElements": {
+    "requestId": "36749d17-6fea-4179-bd0d-d597c7f54e28",
+    "networkInterface": {
+      "networkInterfaceId": "eni-057c9b92e0aaddc1c",
+      "subnetId": "subnet-09f597e561f8b3561",
+      "vpcId": "vpc-0b2f8863c15821728",
+      "availabilityZone": "us-west-2b",
+      "description": "Amazon EKS EksGuardDutyTester",
+      "ownerId": "661078026852",
+      "requesterId": "285017233795",
+      "requesterManaged": true,
+      "status": "pending",
+      "macAddress": "02:26:78:e3:ef:d3",
+      "privateIpAddress": "172.16.0.113",
+      "privateDnsName": "ip-172-16-0-113.us-west-2.compute.internal",
+      "sourceDestCheck": true,
+      "interfaceType": "interface",
+      "groupSet": {
+        "items": [
+          {
+            "groupId": "sg-08cdb75763ee0b8e6",
+            "groupName": "GuardDutyTesterStack-eksClusterSecurityGroup4C0C3515-QEGVD921l4iM"
+          },
+          {
+            "groupId": "sg-069cdf1722ab3c205",
+            "groupName": "eks-cluster-sg-EksGuardDutyTester-1910928269"
+          }
+        ]
+      },
+      "privateIpAddressesSet": {
+        "item": [
+          {
+            "privateIpAddress": "172.16.0.113",
+            "privateDnsName": "ip-172-16-0-113.us-west-2.compute.internal",
+            "primary": true
+          }
+        ]
+      },
+      "ipv6AddressesSet": {},
+      "tagSet": {}
+    }
+  },
+  "requestID": "36749d17-6fea-4179-bd0d-d597c7f54e28",
+  "eventID": "400f3091-e644-4be1-bf41-92eb2c99a956",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.10",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSDGTOSO7OX:AmazonEKS",
+    "arn": "arn:aws:sts::661122334567:assumed-role/AWSServiceRoleForAmazonEKS/AmazonEKS",
+    "accountId": "661122334567",
+    "sessionContext": {
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "AROAZT22SFJSDGTOSO7OX",
+        "arn": "arn:aws:iam::661122334567:role/aws-service-role/eks.amazonaws.com/AWSServiceRoleForAmazonEKS",
+        "accountId": "661122334567",
+        "userName": "AWSServiceRoleForAmazonEKS"
+      },
+      "attributes": {
+        "creationDate": "2024-08-21T17:53:42Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "eks.amazonaws.com"
+  },
+  "eventTime": "2024-08-21T17:53:42Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "CreateNetworkInterface",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "209.230.231.34",
+  "userAgent": "eks.amazonaws.com",
+  "requestParameters": {
+    "subnetId": "subnet-0fd8efb4fa861ac19",
+    "description": "Amazon EKS EksGuardDutyTester",
+    "groupSet": {
+      "items": [
+        {
+          "groupId": "sg-08cdb75763ee0b8e6"
+        },
+        {
+          "groupId": "sg-069cdf1722ab3c205"
+        }
+      ]
+    },
+    "privateIpAddressesSet": {},
+    "ipv6AddressCount": 0,
+    "clientToken": "9ce6b896-962a-4c20-8ff2-dbeee10dd4df"
+  },
+  "responseElements": {
+    "requestId": "b64a161d-0c95-453b-83d1-901aabd0a086",
+    "networkInterface": {
+      "networkInterfaceId": "eni-017a45f53bf6992f4",
+      "subnetId": "subnet-0fd8efb4fa861ac19",
+      "vpcId": "vpc-0b2f8863c15821728",
+      "availabilityZone": "us-west-2a",
+      "description": "Amazon EKS EksGuardDutyTester",
+      "ownerId": "661078026852",
+      "requesterId": "285017233795",
+      "requesterManaged": true,
+      "status": "pending",
+      "macAddress": "06:94:ed:7c:93:75",
+      "privateIpAddress": "172.16.0.14",
+      "privateDnsName": "ip-172-16-0-14.us-west-2.compute.internal",
+      "sourceDestCheck": true,
+      "interfaceType": "interface",
+      "groupSet": {
+        "items": [
+          {
+            "groupId": "sg-08cdb75763ee0b8e6",
+            "groupName": "GuardDutyTesterStack-eksClusterSecurityGroup4C0C3515-QEGVD921l4iM"
+          },
+          {
+            "groupId": "sg-069cdf1722ab3c205",
+            "groupName": "eks-cluster-sg-EksGuardDutyTester-1910928269"
+          }
+        ]
+      },
+      "privateIpAddressesSet": {
+        "item": [
+          {
+            "privateIpAddress": "172.16.0.14",
+            "privateDnsName": "ip-172-16-0-14.us-west-2.compute.internal",
+            "primary": true
+          }
+        ]
+      },
+      "ipv6AddressesSet": {},
+      "tagSet": {}
+    }
+  },
+  "requestID": "b64a161d-0c95-453b-83d1-901aabd0a086",
+  "eventID": "10617a5c-a2f2-420c-80ac-63f772849d4c",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.10",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSDGTOSO7OX:AmazonEKS",
+    "arn": "arn:aws:sts::661122334567:assumed-role/AWSServiceRoleForAmazonEKS/AmazonEKS",
+    "accountId": "661122334567",
+    "sessionContext": {
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "AROAZT22SFJSDGTOSO7OX",
+        "arn": "arn:aws:iam::661122334567:role/aws-service-role/eks.amazonaws.com/AWSServiceRoleForAmazonEKS",
+        "accountId": "661122334567",
+        "userName": "AWSServiceRoleForAmazonEKS"
+      },
+      "attributes": {
+        "creationDate": "2024-08-21T17:53:42Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "eks.amazonaws.com"
+  },
+  "eventTime": "2024-08-21T17:53:42Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "CreateNetworkInterfacePermission",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "209.230.231.34",
+  "userAgent": "eks.amazonaws.com",
+  "requestParameters": {
+    "CreateNetworkInterfacePermissionRequest": {
+      "AwsAccountId": "285017233795",
+      "Permission": "INSTANCE-ATTACH",
+      "NetworkInterfaceId": "eni-017a45f53bf6992f4"
+    }
+  },
+  "responseElements": {
+    "CreateNetworkInterfacePermissionResponse": {
+      "xmlns": "http://ec2.amazonaws.com/doc/2016-11-15/",
+      "requestId": "3a985f2d-4ffe-41d1-9ef0-ba3d9344f3ae",
+      "interfacePermission": {
+        "networkInterfaceId": "eni-017a45f53bf6992f4",
+        "permissionState": {
+          "state": "GRANTED"
+        },
+        "awsAccountId": "285017233795",
+        "networkInterfacePermissionId": "eni-perm-0b8194d90967ce318",
+        "permission": "INSTANCE-ATTACH"
+      }
+    }
+  },
+  "requestID": "3a985f2d-4ffe-41d1-9ef0-ba3d9344f3ae",
+  "eventID": "355beecb-9bcc-4f77-bcf9-1bd8a5c47778",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.10",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSDGTOSO7OX:AmazonEKS",
+    "arn": "arn:aws:sts::661122334567:assumed-role/AWSServiceRoleForAmazonEKS/AmazonEKS",
+    "accountId": "661122334567",
+    "sessionContext": {
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "AROAZT22SFJSDGTOSO7OX",
+        "arn": "arn:aws:iam::661122334567:role/aws-service-role/eks.amazonaws.com/AWSServiceRoleForAmazonEKS",
+        "accountId": "661122334567",
+        "userName": "AWSServiceRoleForAmazonEKS"
+      },
+      "attributes": {
+        "creationDate": "2024-08-21T17:50:28Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "eks.amazonaws.com"
+  },
+  "eventTime": "2024-08-21T17:50:32Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "AuthorizeSecurityGroupIngress",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "209.230.231.34",
+  "userAgent": "eks.amazonaws.com",
+  "requestParameters": {
+    "groupId": "sg-069cdf1722ab3c205",
+    "ipPermissions": {
+      "items": [
+        {
+          "ipProtocol": "-1",
+          "groups": {
+            "items": [
+              {
+                "groupId": "sg-069cdf1722ab3c205"
+              }
+            ]
+          },
+          "ipRanges": {},
+          "ipv6Ranges": {},
+          "prefixListIds": {}
+        }
+      ]
+    }
+  },
+  "responseElements": {
+    "requestId": "b167053f-cc3e-419e-8c1f-12ba679634ec",
+    "_return": true,
+    "securityGroupRuleSet": {
+      "items": [
+        {
+          "groupOwnerId": "661078026852",
+          "groupId": "sg-069cdf1722ab3c205",
+          "securityGroupRuleId": "sgr-02b25911c7b23b4c6",
+          "isEgress": false,
+          "ipProtocol": "-1",
+          "fromPort": -1,
+          "toPort": -1,
+          "referencedGroupInfo": {
+            "userId": "661078026852",
+            "groupId": "sg-069cdf1722ab3c205"
+          }
+        }
+      ]
+    }
+  },
+  "requestID": "b167053f-cc3e-419e-8c1f-12ba679634ec",
+  "eventID": "08e3faa3-63cd-4938-8022-9fc02bc54594",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.10",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSDGTOSO7OX:AmazonEKS",
+    "arn": "arn:aws:sts::661122334567:assumed-role/AWSServiceRoleForAmazonEKS/AmazonEKS",
+    "accountId": "661122334567",
+    "sessionContext": {
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "AROAZT22SFJSDGTOSO7OX",
+        "arn": "arn:aws:iam::661122334567:role/aws-service-role/eks.amazonaws.com/AWSServiceRoleForAmazonEKS",
+        "accountId": "661122334567",
+        "userName": "AWSServiceRoleForAmazonEKS"
+      },
+      "attributes": {
+        "creationDate": "2024-08-21T17:50:28Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "eks.amazonaws.com"
+  },
+  "eventTime": "2024-08-21T17:50:32Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "CreateTags",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "209.230.231.34",
+  "userAgent": "eks.amazonaws.com",
+  "requestParameters": {
+    "resourcesSet": {
+      "items": [
+        {
+          "resourceId": "sg-069cdf1722ab3c205"
+        }
+      ]
+    },
+    "tagSet": {
+      "items": [
+        {
+          "key": "aws:eks:cluster-name",
+          "value": "EksGuardDutyTester"
+        },
+        {
+          "key": "Name",
+          "value": "eks-cluster-sg-EksGuardDutyTester-1910928269"
+        },
+        {
+          "key": "kubernetes.io/cluster/EksGuardDutyTester",
+          "value": "owned"
+        }
+      ]
+    }
+  },
+  "responseElements": {
+    "requestId": "10de792c-fa9f-44e6-8656-1c60781d09be",
+    "_return": true
+  },
+  "requestID": "10de792c-fa9f-44e6-8656-1c60781d09be",
+  "eventID": "caadf46d-2efa-457d-beae-a43133136da8",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.10",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSDGTOSO7OX:AmazonEKS",
+    "arn": "arn:aws:sts::661122334567:assumed-role/AWSServiceRoleForAmazonEKS/AmazonEKS",
+    "accountId": "661122334567",
+    "sessionContext": {
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "AROAZT22SFJSDGTOSO7OX",
+        "arn": "arn:aws:iam::661122334567:role/aws-service-role/eks.amazonaws.com/AWSServiceRoleForAmazonEKS",
+        "accountId": "661122334567",
+        "userName": "AWSServiceRoleForAmazonEKS"
+      },
+      "attributes": {
+        "creationDate": "2024-08-21T17:50:28Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "eks.amazonaws.com"
+  },
+  "eventTime": "2024-08-21T17:50:28Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "CreateSecurityGroup",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "209.230.231.34",
+  "userAgent": "eks.amazonaws.com",
+  "requestParameters": {
+    "groupName": "eks-cluster-sg-EksGuardDutyTester-1910928269",
+    "groupDescription": "EKS created security group applied to ENI that is attached to EKS Control Plane master nodes, as well as any managed workloads.",
+    "vpcId": "vpc-0b2f8863c15821728"
+  },
+  "responseElements": {
+    "requestId": "91c1763f-c8ed-4ca6-b71e-f18b64d2f584",
+    "_return": true,
+    "groupId": "sg-069cdf1722ab3c205"
+  },
+  "requestID": "91c1763f-c8ed-4ca6-b71e-f18b64d2f584",
+  "eventID": "1ef0f003-2805-462c-be86-c25400dd0840",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.09",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSDGTOSO7OX:AmazonEKS",
+    "arn": "arn:aws:sts::661122334567:assumed-role/AWSServiceRoleForAmazonEKS/AmazonEKS",
+    "accountId": "661122334567",
+    "sessionContext": {
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "AROAZT22SFJSDGTOSO7OX",
+        "arn": "arn:aws:iam::661122334567:role/aws-service-role/eks.amazonaws.com/AWSServiceRoleForAmazonEKS",
+        "accountId": "661122334567",
+        "userName": "AWSServiceRoleForAmazonEKS"
+      },
+      "attributes": {
+        "creationDate": "2024-08-20T19:26:03Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "eks.amazonaws.com"
+  },
+  "eventTime": "2024-08-20T19:26:15Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "DeleteSecurityGroup",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "209.230.231.34",
+  "userAgent": "eks.amazonaws.com",
+  "requestParameters": {
+    "groupId": "sg-05c63ee92f2e355bf"
+  },
+  "responseElements": {
+    "requestId": "a5dc53c3-c1f5-4bef-af61-225e75db1ae5",
+    "_return": true,
+    "groupId": "sg-05c63ee92f2e355bf"
+  },
+  "requestID": "a5dc53c3-c1f5-4bef-af61-225e75db1ae5",
+  "eventID": "8db8fe78-5cd9-46c0-8e20-9ec51eecdadd",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.09",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSDGTOSO7OX:AmazonEKS",
+    "arn": "arn:aws:sts::661122334567:assumed-role/AWSServiceRoleForAmazonEKS/AmazonEKS",
+    "accountId": "661122334567",
+    "sessionContext": {
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "AROAZT22SFJSDGTOSO7OX",
+        "arn": "arn:aws:iam::661122334567:role/aws-service-role/eks.amazonaws.com/AWSServiceRoleForAmazonEKS",
+        "accountId": "661122334567",
+        "userName": "AWSServiceRoleForAmazonEKS"
+      },
+      "attributes": {
+        "creationDate": "2024-08-20T19:26:03Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "eks.amazonaws.com"
+  },
+  "eventTime": "2024-08-20T19:26:15Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "RevokeSecurityGroupIngress",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "209.230.231.34",
+  "userAgent": "eks.amazonaws.com",
+  "requestParameters": {
+    "groupId": "sg-05c63ee92f2e355bf",
+    "ipPermissions": {
+      "items": [
+        {
+          "ipProtocol": "-1",
+          "groups": {
+            "items": [
+              {
+                "groupId": "sg-05c63ee92f2e355bf"
+              }
+            ]
+          },
+          "ipRanges": {},
+          "ipv6Ranges": {},
+          "prefixListIds": {}
+        }
+      ]
+    }
+  },
+  "responseElements": {
+    "requestId": "e7586255-75f4-492c-97fc-c3d8e60f89a1",
+    "_return": true,
+    "revokedSecurityGroupRuleSet": {
+      "items": [
+        {
+          "groupId": "sg-05c63ee92f2e355bf",
+          "securityGroupRuleId": "sgr-07d168858d99cd6b4",
+          "isEgress": false,
+          "ipProtocol": "-1",
+          "fromPort": -1,
+          "toPort": -1,
+          "referencedGroupId": "sg-05c63ee92f2e355bf"
+        }
+      ]
+    }
+  },
+  "requestID": "e7586255-75f4-492c-97fc-c3d8e60f89a1",
+  "eventID": "96026fcd-81fc-467d-9df7-f5c52db2c2b9",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.09",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSDGTOSO7OX:AmazonEKS",
+    "arn": "arn:aws:sts::661122334567:assumed-role/AWSServiceRoleForAmazonEKS/AmazonEKS",
+    "accountId": "661122334567",
+    "sessionContext": {
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "AROAZT22SFJSDGTOSO7OX",
+        "arn": "arn:aws:iam::661122334567:role/aws-service-role/eks.amazonaws.com/AWSServiceRoleForAmazonEKS",
+        "accountId": "661122334567",
+        "userName": "AWSServiceRoleForAmazonEKS"
+      },
+      "attributes": {
+        "creationDate": "2024-08-20T19:26:03Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "eks.amazonaws.com"
+  },
+  "eventTime": "2024-08-20T19:26:12Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "DeleteNetworkInterface",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "209.230.231.34",
+  "userAgent": "eks.amazonaws.com",
+  "requestParameters": {
+    "networkInterfaceId": "eni-031db8c3c09763163"
+  },
+  "responseElements": {
+    "requestId": "7be9e920-1ca3-47b4-858c-cd229629c052",
+    "_return": true
+  },
+  "requestID": "7be9e920-1ca3-47b4-858c-cd229629c052",
+  "eventID": "4d1bd6e1-f8ab-4447-a766-9eda854699dc",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.09",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSDGTOSO7OX:AmazonEKS",
+    "arn": "arn:aws:sts::661122334567:assumed-role/AWSServiceRoleForAmazonEKS/AmazonEKS",
+    "accountId": "661122334567",
+    "sessionContext": {
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "AROAZT22SFJSDGTOSO7OX",
+        "arn": "arn:aws:iam::661122334567:role/aws-service-role/eks.amazonaws.com/AWSServiceRoleForAmazonEKS",
+        "accountId": "661122334567",
+        "userName": "AWSServiceRoleForAmazonEKS"
+      },
+      "attributes": {
+        "creationDate": "2024-08-20T19:26:03Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "eks.amazonaws.com"
+  },
+  "eventTime": "2024-08-20T19:26:08Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "DetachNetworkInterface",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "209.230.231.34",
+  "userAgent": "eks.amazonaws.com",
+  "requestParameters": {
+    "attachmentId": "eni-attach-095b7753463b355c3"
+  },
+  "responseElements": {
+    "requestId": "142aac54-a803-4644-a37b-1044f68cdba3",
+    "_return": true
+  },
+  "requestID": "142aac54-a803-4644-a37b-1044f68cdba3",
+  "eventID": "b35d3b7c-bcbb-4b97-a384-7861eb4ea30f",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.09",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSDGTOSO7OX:AmazonEKS",
+    "arn": "arn:aws:sts::661122334567:assumed-role/AWSServiceRoleForAmazonEKS/AmazonEKS",
+    "accountId": "661122334567",
+    "sessionContext": {
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "AROAZT22SFJSDGTOSO7OX",
+        "arn": "arn:aws:iam::661122334567:role/aws-service-role/eks.amazonaws.com/AWSServiceRoleForAmazonEKS",
+        "accountId": "661122334567",
+        "userName": "AWSServiceRoleForAmazonEKS"
+      },
+      "attributes": {
+        "creationDate": "2024-08-20T19:26:03Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "eks.amazonaws.com"
+  },
+  "eventTime": "2024-08-20T19:26:07Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "DeleteNetworkInterface",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "209.230.231.34",
+  "userAgent": "eks.amazonaws.com",
+  "requestParameters": {
+    "networkInterfaceId": "eni-03dd6103498eae990"
+  },
+  "responseElements": {
+    "requestId": "907c8774-387d-417e-88a9-b99268046677",
+    "_return": true
+  },
+  "requestID": "907c8774-387d-417e-88a9-b99268046677",
+  "eventID": "10c68f3a-0331-4a91-93a2-17b1cae0a11e",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.09",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSDGTOSO7OX:AmazonEKS",
+    "arn": "arn:aws:sts::661122334567:assumed-role/AWSServiceRoleForAmazonEKS/AmazonEKS",
+    "accountId": "661122334567",
+    "sessionContext": {
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "AROAZT22SFJSDGTOSO7OX",
+        "arn": "arn:aws:iam::661122334567:role/aws-service-role/eks.amazonaws.com/AWSServiceRoleForAmazonEKS",
+        "accountId": "661122334567",
+        "userName": "AWSServiceRoleForAmazonEKS"
+      },
+      "attributes": {
+        "creationDate": "2024-08-20T19:26:03Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "eks.amazonaws.com"
+  },
+  "eventTime": "2024-08-20T19:26:04Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "DetachNetworkInterface",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "209.230.231.34",
+  "userAgent": "eks.amazonaws.com",
+  "requestParameters": {
+    "attachmentId": "eni-attach-09540a55181370424"
+  },
+  "responseElements": {
+    "requestId": "5089e797-a385-42a4-bef7-89036777b0d4",
+    "_return": true
+  },
+  "requestID": "5089e797-a385-42a4-bef7-89036777b0d4",
+  "eventID": "d6b77ca5-03f0-4d06-afcd-304cb4208e6a",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.09",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSJVWK2ZJMM:1724055911601224886",
+    "arn": "arn:aws:sts::661122334567:assumed-role/lox-eksClusterRoleA48F9AA2-uZAnzu3CFcZs/1724055911601224886",
+    "accountId": "661122334567",
+    "sessionContext": {
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "AROAZT22SFJSJVWK2ZJMM",
+        "arn": "arn:aws:iam::661122334567:role/lox-eksClusterRoleA48F9AA2-uZAnzu3CFcZs",
+        "accountId": "661122334567",
+        "userName": "lox-eksClusterRoleA48F9AA2-uZAnzu3CFcZs"
+      },
+      "attributes": {
+        "creationDate": "2024-08-20T19:12:37Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "eks.amazonaws.com"
+  },
+  "eventTime": "2024-08-20T19:23:05Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "DeleteTags",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "209.230.231.34",
+  "userAgent": "eks.amazonaws.com",
+  "requestParameters": {
+    "resourcesSet": {
+      "items": [
+        {
+          "resourceId": "i-09cc29affdf1eef18"
+        }
+      ]
+    },
+    "tagSet": {
+      "items": [
+        {
+          "key": "aws:eks:cluster-name",
+          "value": "EksGuardDutyTester"
+        }
+      ]
+    }
+  },
+  "responseElements": {
+    "requestId": "73be7a0d-7dc4-411a-9734-021f8fbd9920",
+    "_return": true
+  },
+  "requestID": "73be7a0d-7dc4-411a-9734-021f8fbd9920",
+  "eventID": "723ad2ba-8adc-4640-a542-499072786c27",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.09",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSJVWK2ZJMM:1724055911601224886",
+    "arn": "arn:aws:sts::661122334567:assumed-role/lox-eksClusterRoleA48F9AA2-uZAnzu3CFcZs/1724055911601224886",
+    "accountId": "661122334567",
+    "sessionContext": {
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "AROAZT22SFJSJVWK2ZJMM",
+        "arn": "arn:aws:iam::661122334567:role/lox-eksClusterRoleA48F9AA2-uZAnzu3CFcZs",
+        "accountId": "661122334567",
+        "userName": "lox-eksClusterRoleA48F9AA2-uZAnzu3CFcZs"
+      },
+      "attributes": {
+        "creationDate": "2024-08-19T08:25:11Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "eks.amazonaws.com"
+  },
+  "eventTime": "2024-08-19T08:25:12Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "CreateTags",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "209.230.231.34",
+  "userAgent": "eks.amazonaws.com",
+  "requestParameters": {
+    "resourcesSet": {
+      "items": [
+        {
+          "resourceId": "i-09cc29affdf1eef18"
+        }
+      ]
+    },
+    "tagSet": {
+      "items": [
+        {
+          "key": "aws:eks:cluster-name",
+          "value": "EksGuardDutyTester"
+        }
+      ]
+    }
+  },
+  "responseElements": {
+    "requestId": "50aa2165-2e23-4f08-85a1-d4548b5156f8",
+    "_return": true
+  },
+  "requestID": "50aa2165-2e23-4f08-85a1-d4548b5156f8",
+  "eventID": "46f8f829-de1e-46b7-bd54-4429ecab08d1",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.09",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSJVWK2ZJMM:1724055911601224886",
+    "arn": "arn:aws:sts::661122334567:assumed-role/lox-eksClusterRoleA48F9AA2-uZAnzu3CFcZs/1724055911601224886",
+    "accountId": "661122334567",
+    "sessionContext": {
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "AROAZT22SFJSJVWK2ZJMM",
+        "arn": "arn:aws:iam::661122334567:role/lox-eksClusterRoleA48F9AA2-uZAnzu3CFcZs",
+        "accountId": "661122334567",
+        "userName": "lox-eksClusterRoleA48F9AA2-uZAnzu3CFcZs"
+      },
+      "attributes": {
+        "creationDate": "2024-08-19T08:25:11Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "eks.amazonaws.com"
+  },
+  "eventTime": "2024-08-19T08:25:12Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "CreateTags",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "209.230.231.34",
+  "userAgent": "eks.amazonaws.com",
+  "requestParameters": {
+    "resourcesSet": {
+      "items": [
+        {
+          "resourceId": "i-09cc29affdf1eef18"
+        }
+      ]
+    },
+    "tagSet": {
+      "items": [
+        {
+          "key": "aws:eks:cluster-name",
+          "value": "EksGuardDutyTester"
+        }
+      ]
+    }
+  },
+  "responseElements": {
+    "requestId": "891bc894-2872-4c95-8bdc-a7ee5235d370",
+    "_return": true
+  },
+  "requestID": "891bc894-2872-4c95-8bdc-a7ee5235d370",
+  "eventID": "c11335c0-abc2-4266-bd2e-7088729ab389",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.09",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSJVWK2ZJMM:1724055911601224886",
+    "arn": "arn:aws:sts::661122334567:assumed-role/lox-eksClusterRoleA48F9AA2-uZAnzu3CFcZs/1724055911601224886",
+    "accountId": "661122334567",
+    "sessionContext": {
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "AROAZT22SFJSJVWK2ZJMM",
+        "arn": "arn:aws:iam::661122334567:role/lox-eksClusterRoleA48F9AA2-uZAnzu3CFcZs",
+        "accountId": "661122334567",
+        "userName": "lox-eksClusterRoleA48F9AA2-uZAnzu3CFcZs"
+      },
+      "attributes": {
+        "creationDate": "2024-08-19T08:25:11Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "eks.amazonaws.com"
+  },
+  "eventTime": "2024-08-19T08:25:11Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "CreateTags",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "209.230.231.34",
+  "userAgent": "eks.amazonaws.com",
+  "requestParameters": {
+    "resourcesSet": {
+      "items": [
+        {
+          "resourceId": "i-09cc29affdf1eef18"
+        }
+      ]
+    },
+    "tagSet": {
+      "items": [
+        {
+          "key": "aws:eks:cluster-name",
+          "value": "EksGuardDutyTester"
+        }
+      ]
+    }
+  },
+  "responseElements": {
+    "requestId": "380f99b2-6fc5-4d4f-9278-04abe54634bd",
+    "_return": true
+  },
+  "requestID": "380f99b2-6fc5-4d4f-9278-04abe54634bd",
+  "eventID": "908e605a-6b5d-4ee4-9a94-4f13f03db710",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.09",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSDGTOSO7OX:AmazonEKS",
+    "arn": "arn:aws:sts::661122334567:assumed-role/AWSServiceRoleForAmazonEKS/AmazonEKS",
+    "accountId": "661122334567",
+    "sessionContext": {
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "AROAZT22SFJSDGTOSO7OX",
+        "arn": "arn:aws:iam::661122334567:role/aws-service-role/eks.amazonaws.com/AWSServiceRoleForAmazonEKS",
+        "accountId": "661122334567",
+        "userName": "AWSServiceRoleForAmazonEKS"
+      },
+      "attributes": {
+        "creationDate": "2024-08-19T08:23:50Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "eks.amazonaws.com"
+  },
+  "eventTime": "2024-08-19T08:23:50Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "CreateNetworkInterfacePermission",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "209.230.231.34",
+  "userAgent": "eks.amazonaws.com",
+  "requestParameters": {
+    "CreateNetworkInterfacePermissionRequest": {
+      "AwsAccountId": "827817077823",
+      "Permission": "INSTANCE-ATTACH",
+      "NetworkInterfaceId": "eni-031db8c3c09763163"
+    }
+  },
+  "responseElements": {
+    "CreateNetworkInterfacePermissionResponse": {
+      "xmlns": "http://ec2.amazonaws.com/doc/2016-11-15/",
+      "requestId": "c682f833-b9a3-4bdc-80e0-cf6d93812a5c",
+      "interfacePermission": {
+        "networkInterfaceId": "eni-031db8c3c09763163",
+        "permissionState": {
+          "state": "GRANTED"
+        },
+        "awsAccountId": "827817077823",
+        "networkInterfacePermissionId": "eni-perm-0c66198155cf63a86",
+        "permission": "INSTANCE-ATTACH"
+      }
+    }
+  },
+  "requestID": "c682f833-b9a3-4bdc-80e0-cf6d93812a5c",
+  "eventID": "b225add7-30da-4151-bf48-d5ca4f019293",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.09",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSDGTOSO7OX:AmazonEKS",
+    "arn": "arn:aws:sts::661122334567:assumed-role/AWSServiceRoleForAmazonEKS/AmazonEKS",
+    "accountId": "661122334567",
+    "sessionContext": {
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "AROAZT22SFJSDGTOSO7OX",
+        "arn": "arn:aws:iam::661122334567:role/aws-service-role/eks.amazonaws.com/AWSServiceRoleForAmazonEKS",
+        "accountId": "661122334567",
+        "userName": "AWSServiceRoleForAmazonEKS"
+      },
+      "attributes": {
+        "creationDate": "2024-08-19T08:23:50Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "eks.amazonaws.com"
+  },
+  "eventTime": "2024-08-19T08:23:50Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "CreateNetworkInterface",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "209.230.231.34",
+  "userAgent": "eks.amazonaws.com",
+  "requestParameters": {
+    "subnetId": "subnet-05d71276acf1c52d1",
+    "description": "Amazon EKS EksGuardDutyTester",
+    "groupSet": {
+      "items": [
+        {
+          "groupId": "sg-05c63ee92f2e355bf"
+        },
+        {
+          "groupId": "sg-01180ae4aa5e8c2e2"
+        }
+      ]
+    },
+    "privateIpAddressesSet": {},
+    "ipv6AddressCount": 0,
+    "clientToken": "a347dabe-4e5b-4039-bc6f-1e8f6d0635a3"
+  },
+  "responseElements": {
+    "requestId": "860d3a15-b675-4bc0-8b4f-d1142997269b",
+    "networkInterface": {
+      "networkInterfaceId": "eni-031db8c3c09763163",
+      "subnetId": "subnet-05d71276acf1c52d1",
+      "vpcId": "vpc-09c1c8f11c89e505b",
+      "availabilityZone": "us-west-2a",
+      "description": "Amazon EKS EksGuardDutyTester",
+      "ownerId": "661078026852",
+      "requesterId": "827817077823",
+      "requesterManaged": true,
+      "status": "pending",
+      "macAddress": "06:57:47:9a:17:dd",
+      "privateIpAddress": "172.16.0.31",
+      "privateDnsName": "ip-172-16-0-31.us-west-2.compute.internal",
+      "sourceDestCheck": true,
+      "interfaceType": "interface",
+      "groupSet": {
+        "items": [
+          {
+            "groupId": "sg-01180ae4aa5e8c2e2",
+            "groupName": "GuardDutyTesterStack-eksClusterSecurityGroup4C0C3515-YmPdtJjMTC8q"
+          },
+          {
+            "groupId": "sg-05c63ee92f2e355bf",
+            "groupName": "eks-cluster-sg-EksGuardDutyTester-1910928269"
+          }
+        ]
+      },
+      "privateIpAddressesSet": {
+        "item": [
+          {
+            "privateIpAddress": "172.16.0.31",
+            "privateDnsName": "ip-172-16-0-31.us-west-2.compute.internal",
+            "primary": true
+          }
+        ]
+      },
+      "ipv6AddressesSet": {},
+      "tagSet": {}
+    }
+  },
+  "requestID": "860d3a15-b675-4bc0-8b4f-d1142997269b",
+  "eventID": "d0e332d1-0f5b-4f6b-a8b3-d506eecc6db1",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.09",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSDGTOSO7OX:AmazonEKS",
+    "arn": "arn:aws:sts::661122334567:assumed-role/AWSServiceRoleForAmazonEKS/AmazonEKS",
+    "accountId": "661122334567",
+    "sessionContext": {
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "AROAZT22SFJSDGTOSO7OX",
+        "arn": "arn:aws:iam::661122334567:role/aws-service-role/eks.amazonaws.com/AWSServiceRoleForAmazonEKS",
+        "accountId": "661122334567",
+        "userName": "AWSServiceRoleForAmazonEKS"
+      },
+      "attributes": {
+        "creationDate": "2024-08-19T08:20:33Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "eks.amazonaws.com"
+  },
+  "eventTime": "2024-08-19T08:20:34Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "CreateNetworkInterfacePermission",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "209.230.231.34",
+  "userAgent": "eks.amazonaws.com",
+  "requestParameters": {
+    "CreateNetworkInterfacePermissionRequest": {
+      "AwsAccountId": "827817077823",
+      "Permission": "INSTANCE-ATTACH",
+      "NetworkInterfaceId": "eni-03dd6103498eae990"
+    }
+  },
+  "responseElements": {
+    "CreateNetworkInterfacePermissionResponse": {
+      "xmlns": "http://ec2.amazonaws.com/doc/2016-11-15/",
+      "requestId": "2952506b-d21d-4b80-94a8-5ff421e0f349",
+      "interfacePermission": {
+        "networkInterfaceId": "eni-03dd6103498eae990",
+        "permissionState": {
+          "state": "GRANTED"
+        },
+        "awsAccountId": "827817077823",
+        "networkInterfacePermissionId": "eni-perm-0c63b7dd0c7798521",
+        "permission": "INSTANCE-ATTACH"
+      }
+    }
+  },
+  "requestID": "2952506b-d21d-4b80-94a8-5ff421e0f349",
+  "eventID": "05532d49-7d55-4b99-8790-14fd08fd4f18",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.09",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSDGTOSO7OX:AmazonEKS",
+    "arn": "arn:aws:sts::661122334567:assumed-role/AWSServiceRoleForAmazonEKS/AmazonEKS",
+    "accountId": "661122334567",
+    "sessionContext": {
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "AROAZT22SFJSDGTOSO7OX",
+        "arn": "arn:aws:iam::661122334567:role/aws-service-role/eks.amazonaws.com/AWSServiceRoleForAmazonEKS",
+        "accountId": "661122334567",
+        "userName": "AWSServiceRoleForAmazonEKS"
+      },
+      "attributes": {
+        "creationDate": "2024-08-19T08:20:33Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "eks.amazonaws.com"
+  },
+  "eventTime": "2024-08-19T08:20:34Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "CreateNetworkInterface",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "209.230.231.34",
+  "userAgent": "eks.amazonaws.com",
+  "requestParameters": {
+    "subnetId": "subnet-00e4c121319ad2458",
+    "description": "Amazon EKS EksGuardDutyTester",
+    "groupSet": {
+      "items": [
+        {
+          "groupId": "sg-05c63ee92f2e355bf"
+        },
+        {
+          "groupId": "sg-01180ae4aa5e8c2e2"
+        }
+      ]
+    },
+    "privateIpAddressesSet": {},
+    "ipv6AddressCount": 0,
+    "clientToken": "47e42a48-31f6-4059-9161-1024c07d2785"
+  },
+  "responseElements": {
+    "requestId": "cf48b6cd-7b5b-42c1-bd8f-74a62462d08b",
+    "networkInterface": {
+      "networkInterfaceId": "eni-03dd6103498eae990",
+      "subnetId": "subnet-00e4c121319ad2458",
+      "vpcId": "vpc-09c1c8f11c89e505b",
+      "availabilityZone": "us-west-2b",
+      "description": "Amazon EKS EksGuardDutyTester",
+      "ownerId": "661078026852",
+      "requesterId": "827817077823",
+      "requesterManaged": true,
+      "status": "pending",
+      "macAddress": "02:05:02:f7:74:b1",
+      "privateIpAddress": "172.16.0.102",
+      "privateDnsName": "ip-172-16-0-102.us-west-2.compute.internal",
+      "sourceDestCheck": true,
+      "interfaceType": "interface",
+      "groupSet": {
+        "items": [
+          {
+            "groupId": "sg-01180ae4aa5e8c2e2",
+            "groupName": "GuardDutyTesterStack-eksClusterSecurityGroup4C0C3515-YmPdtJjMTC8q"
+          },
+          {
+            "groupId": "sg-05c63ee92f2e355bf",
+            "groupName": "eks-cluster-sg-EksGuardDutyTester-1910928269"
+          }
+        ]
+      },
+      "privateIpAddressesSet": {
+        "item": [
+          {
+            "privateIpAddress": "172.16.0.102",
+            "privateDnsName": "ip-172-16-0-102.us-west-2.compute.internal",
+            "primary": true
+          }
+        ]
+      },
+      "ipv6AddressesSet": {},
+      "tagSet": {}
+    }
+  },
+  "requestID": "cf48b6cd-7b5b-42c1-bd8f-74a62462d08b",
+  "eventID": "254f8e61-100a-4ea5-88bc-5141ea8201f4",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.09",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSDGTOSO7OX:AmazonEKS",
+    "arn": "arn:aws:sts::661122334567:assumed-role/AWSServiceRoleForAmazonEKS/AmazonEKS",
+    "accountId": "661122334567",
+    "sessionContext": {
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "AROAZT22SFJSDGTOSO7OX",
+        "arn": "arn:aws:iam::661122334567:role/aws-service-role/eks.amazonaws.com/AWSServiceRoleForAmazonEKS",
+        "accountId": "661122334567",
+        "userName": "AWSServiceRoleForAmazonEKS"
+      },
+      "attributes": {
+        "creationDate": "2024-08-19T08:16:43Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "eks.amazonaws.com"
+  },
+  "eventTime": "2024-08-19T08:16:47Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "AuthorizeSecurityGroupIngress",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "209.230.231.34",
+  "userAgent": "eks.amazonaws.com",
+  "requestParameters": {
+    "groupId": "sg-05c63ee92f2e355bf",
+    "ipPermissions": {
+      "items": [
+        {
+          "ipProtocol": "-1",
+          "groups": {
+            "items": [
+              {
+                "groupId": "sg-05c63ee92f2e355bf"
+              }
+            ]
+          },
+          "ipRanges": {},
+          "ipv6Ranges": {},
+          "prefixListIds": {}
+        }
+      ]
+    }
+  },
+  "responseElements": {
+    "requestId": "c01be9b5-c1ac-4e9f-8754-690edb7581d3",
+    "_return": true,
+    "securityGroupRuleSet": {
+      "items": [
+        {
+          "groupOwnerId": "661078026852",
+          "groupId": "sg-05c63ee92f2e355bf",
+          "securityGroupRuleId": "sgr-07d168858d99cd6b4",
+          "isEgress": false,
+          "ipProtocol": "-1",
+          "fromPort": -1,
+          "toPort": -1,
+          "referencedGroupInfo": {
+            "userId": "661078026852",
+            "groupId": "sg-05c63ee92f2e355bf"
+          }
+        }
+      ]
+    }
+  },
+  "requestID": "c01be9b5-c1ac-4e9f-8754-690edb7581d3",
+  "eventID": "0ce201f4-8022-4a4a-915e-f730520160e5",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.09",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSDGTOSO7OX:AmazonEKS",
+    "arn": "arn:aws:sts::661122334567:assumed-role/AWSServiceRoleForAmazonEKS/AmazonEKS",
+    "accountId": "661122334567",
+    "sessionContext": {
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "AROAZT22SFJSDGTOSO7OX",
+        "arn": "arn:aws:iam::661122334567:role/aws-service-role/eks.amazonaws.com/AWSServiceRoleForAmazonEKS",
+        "accountId": "661122334567",
+        "userName": "AWSServiceRoleForAmazonEKS"
+      },
+      "attributes": {
+        "creationDate": "2024-08-19T08:16:43Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "eks.amazonaws.com"
+  },
+  "eventTime": "2024-08-19T08:16:47Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "CreateTags",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "209.230.231.34",
+  "userAgent": "eks.amazonaws.com",
+  "requestParameters": {
+    "resourcesSet": {
+      "items": [
+        {
+          "resourceId": "sg-05c63ee92f2e355bf"
+        }
+      ]
+    },
+    "tagSet": {
+      "items": [
+        {
+          "key": "aws:eks:cluster-name",
+          "value": "EksGuardDutyTester"
+        },
+        {
+          "key": "Name",
+          "value": "eks-cluster-sg-EksGuardDutyTester-1910928269"
+        },
+        {
+          "key": "kubernetes.io/cluster/EksGuardDutyTester",
+          "value": "owned"
+        }
+      ]
+    }
+  },
+  "responseElements": {
+    "requestId": "0c8f40f6-327a-44d3-8ac9-c1ded2cab64d",
+    "_return": true
+  },
+  "requestID": "0c8f40f6-327a-44d3-8ac9-c1ded2cab64d",
+  "eventID": "4996f67d-91fc-4816-97ea-6630e7f7b60a",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
+{
+  "eventVersion": "1.09",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "principalId": "AROAZT22SFJSDGTOSO7OX:AmazonEKS",
+    "arn": "arn:aws:sts::661122334567:assumed-role/AWSServiceRoleForAmazonEKS/AmazonEKS",
+    "accountId": "661122334567",
+    "sessionContext": {
+      "sessionIssuer": {
+        "type": "Role",
+        "principalId": "AROAZT22SFJSDGTOSO7OX",
+        "arn": "arn:aws:iam::661122334567:role/aws-service-role/eks.amazonaws.com/AWSServiceRoleForAmazonEKS",
+        "accountId": "661122334567",
+        "userName": "AWSServiceRoleForAmazonEKS"
+      },
+      "attributes": {
+        "creationDate": "2024-08-19T08:16:43Z",
+        "mfaAuthenticated": "false"
+      }
+    },
+    "invokedBy": "eks.amazonaws.com"
+  },
+  "eventTime": "2024-08-19T08:16:44Z",
+  "eventSource": "ec2.amazonaws.com",
+  "eventName": "CreateSecurityGroup",
+  "awsRegion": "us-west-2",
+  "sourceIPAddress": "209.230.231.34",
+  "userAgent": "eks.amazonaws.com",
+  "requestParameters": {
+    "groupName": "eks-cluster-sg-EksGuardDutyTester-1910928269",
+    "groupDescription": "EKS created security group applied to ENI that is attached to EKS Control Plane master nodes, as well as any managed workloads.",
+    "vpcId": "vpc-09c1c8f11c89e505b"
+  },
+  "responseElements": {
+    "requestId": "3e0a6ab4-e4ae-4631-82c4-33eec4ef4aae",
+    "_return": true,
+    "groupId": "sg-05c63ee92f2e355bf"
+  },
+  "requestID": "3e0a6ab4-e4ae-4631-82c4-33eec4ef4aae",
+  "eventID": "353668c8-e101-4563-a4d9-ac5134373125",
+  "readOnly": false,
+  "eventType": "AwsApiCall",
+  "managementEvent": true,
+  "recipientAccountId": "661122334567",
+  "eventCategory": "Management"
+}
